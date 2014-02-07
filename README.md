@@ -14,6 +14,8 @@ VI
 - [Gundo](http://sjl.bitbucket.org/gundo.vim/)
 - [CSS3](https://github.com/hail2u/vim-css3-syntax.git)
 
+**TODO** review [ctrlp](http://kien.github.io/ctrlp.vim/) cf [this](https://github.com/thoughtbot/dotfiles/blob/master/vimrc.bundles)
+
 **GO**
 
 - [GO ide](https://code.google.com/p/go-wiki/wiki/IDEsAndTextEditorPlugins)
