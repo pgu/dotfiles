@@ -14,8 +14,8 @@ colorscheme monokai
 autocmd FileType go autocmd BufWritePre <buffer> Fmt
 
 " golint
-set rtp+=$GOPATH/src/github.com/golang/lint/misc/vim
-autocmd BufWritePost,FileWritePost *.go execute 'Lint' | cwindow
+" set rtp+=$GOPATH/src/github.com/golang/lint/misc/vim
+" autocmd BufWritePost,FileWritePost *.go execute 'Lint' | cwindow
 
 " Vim-compiler-go
 let g:golang_goroot = "/home/pascal/bin/golang/go"
