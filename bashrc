@@ -135,7 +135,6 @@ PATH="$JAVA_HOME/bin:$PATH"
 # ------------
 #    GOLANG
 # ------------
-alias go=goapp
 export GOLANG_HOME="$HOME/bin/golang"
 export GOPATH="/media/pgu/workspace_intellij_perso/go"
 
