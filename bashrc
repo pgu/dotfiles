@@ -132,18 +132,24 @@ PATH="$M2:$PATH"
 export JAVA_HOME="/usr/lib/jvm/java-6-sun"
 PATH="$JAVA_HOME/bin:$PATH"
 
-# GOLANG installation
+# ------------
+#    GOLANG
+# ------------
 export GOLANG_HOME="$HOME/bin/golang"
+export GOPATH="/media/pgu/workspace_intellij_perso/go"
+
+# GO GAE
 export GOLANG_GAE="$GOLANG_HOME/go_appengine"
+export GOROOT="$GOLANG_GAE/goroot"
 
 # GO standalone (1.2)
-export GOROOT="$GOLANG_HOME/go"
-export GOPATH="/media/pgu/workspace_intellij_perso/go"
+#export GOROOT="$GOLANG_HOME/go"
 
 export PATH="$GOPATH/bin:$PATH"
 export PATH="$GOROOT/bin:$PATH"
 export PATH="$PATH:$GOLANG_GAE"
 
+# ------------
 # ------------
 
 
