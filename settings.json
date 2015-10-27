@@ -1,0 +1,7 @@
+// Place your settings in this file to overwrite the default settings
+{
+  "editor.fontFamily": "Hack",
+	"editor.tabSize": "2",
+	"editor.insertSpaces": "true",
+  "jshint.enable": true
+}
